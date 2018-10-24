@@ -1,0 +1,53 @@
+.navbar-brand img{
+    height: 10vh !important;
+    width: 5vw !important;
+}
+
+.nav-item {
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.carousel {
+    height: 80vh;
+}
+
+.carousel-item {
+    height: 80vh;
+}
+
+.carousel-caption p {
+    font-size: 2em;
+}
+
+.cards {
+    margin-top: 1em;
+    margin: 1em;
+}
+
+.footer-section {
+    background-color: rgb(20, 157, 221);
+    height: 10vh;
+}
+
+.footer-section h5{
+    font-size: 1em;
+    text-align: center;
+    padding-top: 1.5em;
+    color: aliceblue;
+}
+
+@media (max-width:576px) {
+
+    .navbar-brand img{
+        height: 10vh !important;
+        width: 15vw !important;
+    }
+
+    .navbar h1 {
+        font-size: 2em;
+    }
+    .carousel {
+        height: 40vh;
+    }    
+}
