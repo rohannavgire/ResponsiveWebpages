@@ -98,10 +98,14 @@
     }
     .carousel {
         height: 40vh;
-    }    
+    }   
+    
+    .carousel-caption {
+        display: block;
+    }
 
     .footer-section {
-        height: 30vh;
+        height: 35vh;
         padding:0;
         margin-bottom: 0;
     }
