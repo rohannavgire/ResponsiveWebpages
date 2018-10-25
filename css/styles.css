@@ -27,14 +27,63 @@
 
 .footer-section {
     background-color: rgb(20, 157, 221);
-    height: 10vh;
+    height: 15vh;
 }
 
 .footer-section h5{
     font-size: 1em;
     text-align: center;
     padding-top: 1.5em;
-    color: aliceblue;
+    color: white;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-around;
+}
+
+.address-card {
+    display: flex;
+    flex-direction: row;
+    color: white;  
+    margin-top: 1.5em;     
+}
+
+.address-card p {
+    text-align: center;
+    margin-top:0.5em;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    color:white;
+    justify-content: space-between;
+    margin-top: 1.5em;
+}
+
+.phone p{
+    margin-top: 0.3em;
+    margin:0.5em;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:white !important;
+}
+
+.social-media a {
+    color:white;
+    margin: 0.5em;
+    margin-top: 1.7em;
+}
+
+.social-media a:hover {
+    border-bottom: 2px solid;
 }
 
 @media (max-width:576px) {
@@ -50,4 +99,23 @@
     .carousel {
         height: 40vh;
     }    
+
+    .footer-section {
+        height: 30vh;
+        padding:0;
+        margin-bottom: 0;
+    }
+
+    .footer-row {
+        flex-direction: column;
+    }
+
+    .address-card {
+        justify-content: center;
+    }
+
+    .phone {
+        justify-content: center;
+    }
+    
 }
